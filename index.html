@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="UTF-8">
+   <title></title>
+   <style>
+      html, body {
+         padding: 0;
+         margin: 0;
+         position: relative;
+         height: 100%;
+         overflow: hidden;
+      }
+      .full-slider{width: 100%;height: 100%;position: relative;overflow: hidden;}
+      .full-slider-btn{position: absolute;top: 50%;display: inline-block;width: 100px; height: 30px;line-height: 30px;text-align: center;}
+      .full-slider .swiper-slide-prev{left: 30px;}
+      .full-slider .full-slider-btn{right: 30px;}
+      .slider-item{position: absolute;width: 100%;height: 100%;left: 0;top: 0;cursor: pointer;}
+      .slider-item img{display: block;width: 100%;height: 100%;}
+      .slider-item1{background: url("http://bobo-public.nosdn.127.net/bobo_1446428950740_18044307.jpg") 0 0 no-repeat;background-size: 100% 100%;}
+      .slider-active{top: 0;}
+
+      .full-slider-pagination{position: relative;z-index: 88;}
+      .full-slider-pagination span{display: inline-block;width: 10px;height: 10px;border-radius: 5px;background-color: #00047E;}
+      .full-slider-pagination .swiper-pagination-bullet-active{background-color: red;}
+   </style>
+</head>
+<body>
+<div class="full-slider">
+   <div class="full-slider-bd">
+      <div class="slider-item slider-item1">
+      </div>
+      <div class="slider-item">
+         <img src="http://bobo-public.nosdn.127.net/bobo_1446428950740_18044307.jpg">
+      </div>
+      <div class="slider-item">
+         <img src="http://bobo-public.nosdn.127.net/bobo_1446428950740_18044307.jpg">
+      </div>
+      <div class="slider-item">
+         <img src="http://bobo-public.nosdn.127.net/bobo_1446446221468_61829505.jpg">
+      </div>
+      <div class="slider-item">
+         <img src="http://bobo-public.nosdn.127.net/bobo_1446446221468_61829505.jpg">
+      </div>
+      <div class="slider-item">
+         <img src="http://bobo-public.nosdn.127.net/bobo_1446446221468_61829505.jpg">
+      </div>
+      <div class="slider-item">
+         <img src="http://bobo-public.nosdn.127.net/bobo_1446446221468_61829505.jpg">
+      </div>
+   </div>
+   <a class="swiper-slide-prev full-slider-btn" href="javascript:;">上一页</a>
+   <a class="swiper-slide-next full-slider-btn" href="javascript:;">下一页</a>
+   <div class="full-slider-pagination"></div>
+</div>
+
+<script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+   //var slider = new FullSlider('.full-slider',{mode: 'v',isFullSlider: false,window:{width:500,height: 500}});
+   var slider = new FullSlider('.full-slider',{mode: 'v'});
+
+</script>
+</body>
+</html>
