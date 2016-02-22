@@ -1,6 +1,5 @@
-
-/*
-    * mode v: 垂直方向，h：水平方向 默认值为 h 水平方向
+#使用指南
+      mode v: 垂直方向，h：水平方向 默认值为 h 水平方向
     * activeIndex 初始化index 默认值0
     * sliderItemClass  滑动模块的class 默认为slider-item
     * isFullSlider 是否是全屏滑动，默认是全屏
@@ -12,4 +11,3 @@
     * wrapperClass 控制框的class
     * bulletClass 控制按钮的默认class
     * bulletActiveClass 控制按钮的当前状态
-    * */
