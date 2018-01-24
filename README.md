@@ -11,3 +11,5 @@
       wrapperClass 控制框的class
       bulletClass 控制按钮的默认class
       bulletActiveClass 控制按钮的当前状态
+      
+      (欢迎吐槽)
